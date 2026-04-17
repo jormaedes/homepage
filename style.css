@@ -46,6 +46,7 @@ header::before {
 
 .profile-image img {
 	height: 350px;
+	width: 350px;
 	object-fit: cover;
 }
 
@@ -57,15 +58,13 @@ header::before {
 
 .title {
 	font-family: var(--font-title);
-	font-weight: 400;
+	font-weight: 500;
 }
 
 .social-icons {
 	align-self: flex-end;
 	font-size: 24px;
 }
-
-
 
 a {
 	text-decoration: none;
@@ -164,6 +163,36 @@ a:hover {
 	background-color: var(--primary-blue);
 }
 
-img {
-	width: 300px;
+.contact-content {
+	display: flex;
+	justify-content: space-between;
+	padding: 40px 0;
+	color: var(--white);
+	gap: 16px;
+	flex-wrap: wrap;
+}
+
+.contact-image img {
+	width: 500px;
+	height: 350px;
+	object-fit: cover;
+}
+
+.contact-text,
+.contact-text address {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.contact-text {
+	flex: 1;
+}
+
+.social-icons-footer a {
+	font-size: 30px;
+}
+
+.social-icons-footer a:hover {
+	color: var(--white);
 }
