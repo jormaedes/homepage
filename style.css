@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-    --primary-blue: #2a92a4;
+    --primary-blue: #50a1ce;
     --text-dark: #333;
     --white: #ffffff;
     --bg-light: #f3f4f6;
@@ -23,7 +23,7 @@ body {
 }
 
 .container {
-	max-width: 1200px;
+	max-width: 1000px;
 	margin: 0 auto;
 }
 
@@ -65,6 +65,8 @@ header::before {
 	font-size: 24px;
 }
 
+
+
 a {
 	text-decoration: none;
 	color: var(--text-dark);
@@ -72,6 +74,10 @@ a {
 
 a:hover {
 	color: var(--primary-blue);
+}
+
+.my-work {
+	padding: 30px 0;
 }
 
 .name-overlay {
@@ -152,6 +158,10 @@ a:hover {
 
 .project-links {
 	font-size: 22px;
+}
+
+.contact-section {
+	background-color: var(--primary-blue);
 }
 
 img {
