@@ -1,8 +1,3 @@
-/* scroll-animations.js
-   Adds .visible to .reveal elements when they enter the viewport.
-   Also stagger-animates project cards on scroll.
-*/
-
 document.addEventListener('DOMContentLoaded', () => {
 
     // --- Scroll Reveal (IntersectionObserver) ---
